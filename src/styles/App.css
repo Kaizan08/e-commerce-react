@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+.header{
+  background: darkgreen;
+  height: 20%;
+  
+}
+.links{
+  color: white;
+  padding-left: 20px;
+  text-decoration: none
+}
+.subheader{
+  height: 30px;
+  background: black;
+  display: flex;
+  align-items: center;
+}
+.sublinks{
+  color: white;
+  padding-left: 10px;
+  padding-right: 20px;
+  font-size: 16px;
+  text-decoration: none
+}
+.background{
+  width: 100%; 
+  z-index: -1; 
+  max-height: 650px; 
+  position: fixed;
+  top: 80px;
+}
+.position1stheader{
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 175px;
+  right: 209px;
+  /* Safari */
+  -webkit-transform: rotate(-33deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-33deg);
+
+  /* IE */
+  -ms-transform: rotate(-33deg);
+
+  /* Opera */
+  -o-transform: rotate(-33deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);   
+}
+
+.position2ndheader{
+  color: white;
+  position: relative;
+  text-align: center;
+  top: 120px;
+  left: 239px;
+  /* Safari */
+  -webkit-transform: rotate(35deg);
+
+  /* Firefox */
+  -moz-transform: rotate(35deg);
+
+  /* IE */
+  -ms-transform: rotate(35deg);
+
+  /* Opera */
+  -o-transform: rotate(35deg);
+
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);   
+}
+
