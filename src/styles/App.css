@@ -27,7 +27,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 20px;
+  margin: 0 20px 0 0;
 }
 .header{
   background: darkgreen;
@@ -63,19 +63,19 @@
   color: white;
   position: relative;
   text-align: center;
-  top: 175px;
-  right: 209px;
+  top: 161px;
+  right: 218px;
   /* Safari */
-  -webkit-transform: rotate(-33deg);
+  -webkit-transform: rotate(-27deg);
 
   /* Firefox */
-  -moz-transform: rotate(-33deg);
+  -moz-transform: rotate(-27deg);
 
   /* IE */
-  -ms-transform: rotate(-33deg);
+  -ms-transform: rotate(-27deg);
 
   /* Opera */
-  -o-transform: rotate(-33deg);
+  -o-transform: rotate(-27deg);
 
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);   
@@ -85,19 +85,19 @@
   color: white;
   position: relative;
   text-align: center;
-  top: 120px;
-  left: 239px;
+  top: 110px;
+  left: 260px;
   /* Safari */
-  -webkit-transform: rotate(35deg);
+  -webkit-transform: rotate(29deg);
 
   /* Firefox */
-  -moz-transform: rotate(35deg);
+  -moz-transform: rotate(29deg);
 
   /* IE */
-  -ms-transform: rotate(35deg);
+  -ms-transform: rotate(29deg);
 
   /* Opera */
-  -o-transform: rotate(35deg);
+  -o-transform: rotate(29deg);
 
   /* Internet Explorer */
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);   
