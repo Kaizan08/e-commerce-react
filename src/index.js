@@ -5,17 +5,20 @@ import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import BaseLayout from './components/BaseLayout';
-import Cues from './components/Cues';
-import Cases from './components/Cases';
-import Accessories from './components/Accessories';
-
+import Products from './components/Products';
+import About from './components/About';
+import Contact from './components/Contact';
+import Description from "./components/Description";
 ReactDOM.render(
     <BrowserRouter>
         <BaseLayout>
+        <Switch>
             <Route exact path='/' component={App}/>
-            <Route path='/cases' component={Cases}/>
-            <Route path='/accessories' component={Accessories}/>
-            <Route path='/cues' component={Cues}/>
+            <Route exact path='/about' component={About}/>
+            <Route exact path='/contact' component={Contact}/>
+             <Route path='/:products/:id' component={Description}/> 
+             <Route path='/:id' component={Products}/> 
+        </Switch>
         </BaseLayout>
     </BrowserRouter>
 , document.getElementById('root'));

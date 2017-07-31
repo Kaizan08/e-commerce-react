@@ -103,3 +103,9 @@
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);   
 }
 
+.products{
+  margin: 30px 45px;
+}
+.products div:nth-child(odd){
+  background: lightgray
+}

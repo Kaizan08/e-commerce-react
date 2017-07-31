@@ -39,17 +39,17 @@ module.exports = {
         "accessories": [
             {
                 "name": "8 Foot Heavy Duty Pool Table Cover",
-                "Description": "Comes in Black, Brown, Tan, Green, and Wine",
+                "description": "Comes in Black, Brown, Tan, Green, and Wine",
                 "price": 55.99
         },
             {
                 "name": "8, 9 and 10 Ball Magic Rack Combo Pack",
-                "Description": "The Magic Rack combo pack allows you to quickly and easily rack 8, 9 or 10 ball. Racks in 10 seconds or less. It gives you a nice tight rack every time even on old cloth. Now there is no need to carry your own triangle when you play. It is made out of a water proof material and can be rolled up for easy travel.",
+                "description": "The Magic Rack combo pack allows you to quickly and easily rack 8, 9 or 10 ball. Racks in 10 seconds or less. It gives you a nice tight rack every time even on old cloth. Now there is no need to carry your own triangle when you play. It is made out of a water proof material and can be rolled up for easy travel.",
                 "price": 15.00
             },
             {
                 "name": "Retractable Telescoping Bridge Stick",
-                "Description": "It's happened to all of us. You have one of those impossible to reach shots so you go to get the bridge stick only to find out that the place you're playing at doesn't have one. Then you try some ridiculous behind the back shot, while standing on one foot, only to completely miss the cue ball and give your now laughing opponent ball in hand.",
+                "description": "It's happened to all of us. You have one of those impossible to reach shots so you go to get the bridge stick only to find out that the place you're playing at doesn't have one. Then you try some ridiculous behind the back shot, while standing on one foot, only to completely miss the cue ball and give your now laughing opponent ball in hand.",
                 "price": 42.00
             }
         ]
