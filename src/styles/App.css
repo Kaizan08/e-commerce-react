@@ -109,3 +109,6 @@
 .products div:nth-child(odd){
   background: lightgray
 }
+.selected{
+  border: 1px white solid
+}
